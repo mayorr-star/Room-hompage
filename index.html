@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">  
+  <title>Frontend Mentor | Room homepage</title>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav id="nav-bar">
+    <ul>
+      <div class="close-img">
+        <img src="./images/icon-close.svg" alt="icon-close" id="close-icon">
+      </div>
+      <li>Home</li>
+      <li>Shop</li>
+      <li>About</li>
+      <li>Contact</li>
+    </ul>
+  </nav>
+  <div class="flex1">
+    <section class="section-1">
+      <div class="images">
+        <picture>
+          <source media="(max-width: 375px)" srcset="" id="mobile-image">
+          <img src="" alt="desktop-image-hero-1" id="desktop-image">
+        </picture>
+        <img src="./images/icon-hamburger.svg" alt="icon-open" id="open-icon">
+        <img src="./images/logo.svg" alt="logo" class="logo">
+        <div class="angle-icons">
+          <div class="left">
+            <img src="./images/icon-angle-left.svg" alt="icon-angle-left" class="angle-left">
+          </div>
+          <div class="right">
+            <img src="./images/icon-angle-right.svg" alt="icon-angle-right" class="angle-right">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-2">
+      <article>
+        <header>
+          <h1 id="header"></h1>
+        </header>
+        <p id="info"></p>
+        <div class="shop">
+          <h3 id="shop-now"></h3>
+          <img src="" alt="icon-arrow" id="icon-arrow">
+        </div>
+      </article>
+    </section>
+  </div>
+  <div class="flex2">
+    <section class="section-3">
+        <img src="./images/image-about-dark.jpg" alt="image-about-dark">
+    </section>
+    <section class="section-3">
+      <article>
+        <header>
+          <h3>About our furniture</h3>
+          <p>
+            Our multifunctional collection blends design and function to suit your individual taste.
+            Make each room unique, or pick a cohesive theme that best express your interests and what
+            inspires you. Find the furniture pieces you need, from traditional to contemporary styles
+            or anything in between. Product specialists are available to help you create your dream space.
+          </p>
+        </header>
+      </article>
+    </section>
+    <section class="section-4">
+      <img src="./images/image-about-light.jpg" alt="image-about-light.jpg">
+  </section>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Immanuel Osei Boateng.</a>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
